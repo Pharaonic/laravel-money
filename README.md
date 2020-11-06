@@ -180,7 +180,7 @@ echo $person->balance; 					// 100.00
 echo $person->balance->amount; 			// 100
 echo $person->balance->withName(); 		// 100.00 USD
 echo $person->balance->withSymbol();	// $ 100.00
-echo $person->balance->toString() 		// one hundred dollars
+echo $person->balance->toString() 		// one hundred dollars {PHP Extension intl}
 ```
 
 

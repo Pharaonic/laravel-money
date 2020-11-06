@@ -109,7 +109,7 @@ Money::only(['USD']);
 Money::except(['USD']);
 
 // Get current language
-$language 			= Money::getLanguage();
+$language 		= Money::getLanguage();
 
 // Get currency Code, Name, Symbol
 $currency_code 		= Money::getCurrencyCode();

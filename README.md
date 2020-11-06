@@ -34,7 +34,7 @@ $ php artisan vendor:publish --tag=laravel-money
 
 
 
-#### Configuration & General Methods
+#### Configuration & Options
 
 - [Configuration](#config)
 

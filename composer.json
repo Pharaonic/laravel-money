@@ -1,0 +1,41 @@
+{
+    "name": "pharaonic/laravel-money",
+    "description": "Laravel - Multi Monies with Currencies For Model.",
+    "keywords": [
+        "php",
+        "laravel",
+        "currencies",
+        "currency",
+        "money"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raggi",
+            "email": "support@pharaonic.io",
+            "homepage": "https://pharaonic.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": ">=6.0",
+        "pharaonic/laravel-readable": ">=1.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pharaonic\\Laravel\\Money\\MoneyServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Pharaonic\\Laravel\\Money\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

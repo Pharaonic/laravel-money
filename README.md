@@ -195,6 +195,10 @@ $person = Person::find(1);
 $person->balance->withdraw(0.50); 	// withdraw 50 cents
 $person->balance->deposit(10.50); 	// deposit 10 dollars and 50 cents
 $person->balance->reset();			// resetting money to zero
+
+$person->balance->isZero();			// check if it equals Zero
+$person->balance->isPositive();     // check if it's Positive amount
+$person->balance->isNegative();     // check if it's Negative amount
 ```
 
 

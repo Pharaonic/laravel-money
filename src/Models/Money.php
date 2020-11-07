@@ -122,6 +122,35 @@ class Money extends Model
         return $action;
     }
 
+    /**
+     * Check if amount == 0
+     *
+     * @return boolean
+     */
+    public function isZero(): bool
+    {
+        return $this->amount == 0;
+    }
+
+    /**
+     * Check if amount > 0
+     *
+     * @return boolean
+     */
+    public function isPositive(): bool
+    {
+        return $this->amount > 0;
+    }
+
+    /**
+     * Check if amount < 0
+     *
+     * @return boolean
+     */
+    public function isNegative(): bool
+    {
+        return $this->amount < 0;
+    }
 
     ////////////////////////////////////////////////////////////
     //

@@ -9,7 +9,7 @@
 </p>
 
 
-##### Laravel Money provides a quick and easy methods to manage your model money.
+##### Laravel Money provides a quick and easy methods to manage your model money [150+ Currencies].
 
 
 

@@ -176,10 +176,10 @@ $person = Person::find(1);
 // Get money with specific currency
 echo $person->money('balance', 'USD');
 
-echo $person->balance; 					// 100.00
+echo $person->balance; 				// 100.00
 echo $person->balance->amount; 			// 100
 echo $person->balance->withName(); 		// 100.00 USD
-echo $person->balance->withSymbol();	// $ 100.00
+echo $person->balance->withSymbol();		// $ 100.00
 echo $person->balance->toString() 		// one hundred dollars {PHP Extension intl}
 ```
 
@@ -194,11 +194,11 @@ $person = Person::find(1);
 
 $person->balance->withdraw(0.50); 	// withdraw 50 cents
 $person->balance->deposit(10.50); 	// deposit 10 dollars and 50 cents
-$person->balance->reset();			// resetting money to zero
+$person->balance->reset();		// resetting money to zero
 
-$person->balance->isZero();			// check if it equals Zero
-$person->balance->isPositive();     // check if it's Positive amount
-$person->balance->isNegative();     // check if it's Negative amount
+$person->balance->isZero();		// check if it equals Zero
+$person->balance->isPositive();     	// check if it's Positive amount
+$person->balance->isNegative();     	// check if it's Negative amount
 ```
 
 

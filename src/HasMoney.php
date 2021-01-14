@@ -146,6 +146,7 @@ trait HasMoney
 
         // Get || Set Money
         $money = $this->monies()->where(['name' => $name, 'currency' => $currency])->first();
+        if (!is_float($amount)) return $money;
 
         if ($money) {
             $money->update(['amount' => $amount]);

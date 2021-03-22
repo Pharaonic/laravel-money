@@ -26,6 +26,13 @@ class Money extends Model
         'amount'
     ];
 
+    /**
+     * Casting Fields
+     *
+     * @var array
+     */
+    protected $casts = ['amount' => 'float'];
+
     ////////////////////////////////////////////////////////////
     //
     //                      ACTIONS

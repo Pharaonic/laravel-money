@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=brightgreen&style=flat-square" alt="License">
   <a href="https://liberapay.com/Pharaonic" target="_blank"><img src="https://img.shields.io/liberapay/receives/Pharaonic?color=gold&label=Support&style=flat-square" alt="Support"></a>
   <br>
-  <a href="https://github.com/Pharaonic/laravel-money" target="_blank"><img src="https://img.shields.io/static/v1?label=Packagist&message=pharaonic/laravel-money&color=blue&logo=packagist&logoColor=white" alt="Source"></a>
+  <a href="https://packagist.org/packages/Pharaonic/laravel-money" target="_blank"><img src="https://img.shields.io/static/v1?label=Packagist&message=pharaonic/laravel-money&color=blue&logo=packagist&logoColor=white" alt="Source"></a>
   <a href="https://packagist.org/packages/pharaonic/laravel-money" target="_blank"><img src="https://poser.pugx.org/pharaonic/laravel-money/v" alt="Packagist Version"></a>
   <a href="https://packagist.org/packages/pharaonic/laravel-money" target="_blank"><img src="https://poser.pugx.org/pharaonic/laravel-money/downloads" alt="Packagist Downloads"></a>
 </p>

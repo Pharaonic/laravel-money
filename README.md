@@ -1,6 +1,3 @@
-
-
-
 <p align="center"><a href="https://pharaonic.io" target="_blank"><img src="https://raw.githubusercontent.com/Pharaonic/logos/main/money.jpg"></a></p>
 
 <p align="center">

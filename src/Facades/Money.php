@@ -232,10 +232,12 @@ final class Money
      */
     public static function getCurrenciesList()
     {
-        $names = app('Money')->names;
-        foreach($names as $code => &$name) $name = $name['name'];
-        sort($names);
-        
+        $names = array_map(function ($currency) {
+            return $currency['name'];
+        }, app('Money')->names);
+
+        asort($names);
+
         return $names;
     }
 
